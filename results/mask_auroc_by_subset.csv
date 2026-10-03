@@ -1,0 +1,16 @@
+detector,subset,n_lie,n_honest,auc
+deception probe (RepE pairs),pooled,252,108,0.7631172839506173
+deception probe (RepE pairs),continuations,82,31,0.6392604248623132
+deception probe (RepE pairs),disinformation,81,15,0.9646090534979425
+deception probe (RepE pairs),doubling_down_known_facts,33,12,0.7222222222222222
+deception probe (RepE pairs),known_facts,56,50,0.6192857142857142
+truth probe (cities+facts),pooled,252,108,0.37981334509112286
+truth probe (cities+facts),continuations,82,31,0.21833202202989777
+truth probe (cities+facts),disinformation,81,15,0.1275720164609053
+truth probe (cities+facts),doubling_down_known_facts,33,12,0.3333333333333333
+truth probe (cities+facts),known_facts,56,50,0.6053571428571428
+lie probe (within-prompt),pooled,252,108,0.6723985890652557
+lie probe (within-prompt),continuations,82,31,0.6376868607395751
+lie probe (within-prompt),disinformation,81,15,0.47242798353909465
+lie probe (within-prompt),doubling_down_known_facts,33,12,0.6717171717171717
+lie probe (within-prompt),known_facts,56,50,0.7510714285714285

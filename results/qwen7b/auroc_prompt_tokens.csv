@@ -1,0 +1,79 @@
+detector,contrast,layer,feat,auc,lo,hi,n_pos,n_neg
+deception probe (RepE pairs),halluc vs correct | neutral,16,prompt,0.4503733833959116,0.42085012515644554,0.4805899040467251,510,940
+deception probe (RepE pairs),lie vs correct | sycophancy,16,prompt,0.5289150588824856,0.48375231771485844,0.5666173891255324,325,614
+deception probe (RepE pairs),halluc vs correct | sycophancy,16,prompt,0.47544780014667887,0.4425595965669206,0.5103360731015982,493,614
+deception probe (RepE pairs),lie vs halluc | sycophancy,16,prompt,0.5521984709002965,0.5105682633796224,0.5877957559681698,325,493
+deception probe (RepE pairs),lie (sycophancy) vs halluc (neutral),16,prompt,0.633079939668175,0.5981259426847663,0.6709716440422322,325,510
+deception probe (RepE pairs),lie vs correct | incentive,16,prompt,0.5008069522036003,0.4213140906269398,0.5819608938547486,45,895
+deception probe (RepE pairs),halluc vs correct | incentive,16,prompt,0.4661710879689962,0.43612581730823713,0.5006112389089714,493,895
+deception probe (RepE pairs),lie vs halluc | incentive,16,prompt,0.532612125309894,0.4415483434753211,0.6076955149876042,45,493
+deception probe (RepE pairs),lie (incentive) vs halluc (neutral),16,prompt,0.7898474945533769,0.7320108932461874,0.8361328976034859,45,510
+deception probe (RepE pairs),lie vs correct | instructed,16,prompt,0.52961919012655,0.4645230887009778,0.5893708459477328,103,837
+deception probe (RepE pairs),halluc vs correct | instructed,16,prompt,0.45137639285104725,0.4193654451027723,0.4784635359520152,490,837
+deception probe (RepE pairs),lie vs halluc | instructed,16,prompt,0.575946106597979,0.5220393302952249,0.6336922924509609,103,490
+deception probe (RepE pairs),lie (instructed) vs halluc (neutral),16,prompt,0.9933371406815154,0.9868108699790596,0.9981915096135542,103,510
+truth probe (cities+facts),halluc vs correct | neutral,16,prompt,0.6021307884856071,0.5739105392156862,0.6317491134751773,510,940
+truth probe (cities+facts),lie vs correct | sycophancy,16,prompt,0.5427962916562266,0.5006708844901027,0.584737409170634,325,614
+truth probe (cities+facts),halluc vs correct | sycophancy,16,prompt,0.5943155314467695,0.5659937826641382,0.6339184660160818,493,614
+truth probe (cities+facts),lie vs halluc | sycophancy,16,prompt,0.4435450148229053,0.4086426899672336,0.4815706038383523,325,493
+truth probe (cities+facts),lie (sycophancy) vs halluc (neutral),16,prompt,0.7082352941176471,0.6723285067873302,0.7452473604826546,325,510
+truth probe (cities+facts),lie vs correct | incentive,16,prompt,0.5151831160769708,0.41886964618249534,0.6142588454376164,45,895
+truth probe (cities+facts),halluc vs correct | incentive,16,prompt,0.5205321427357305,0.487171631896835,0.5479105805296497,493,895
+truth probe (cities+facts),lie vs halluc | incentive,16,prompt,0.500518368266847,0.39830178048230785,0.6132769889565022,45,493
+truth probe (cities+facts),lie (incentive) vs halluc (neutral),16,prompt,0.8124618736383442,0.7334139433551198,0.8722647058823529,45,510
+truth probe (cities+facts),lie vs correct | instructed,16,prompt,0.5119648304740695,0.4528363549895025,0.5694821426500098,103,837
+truth probe (cities+facts),halluc vs correct | instructed,16,prompt,0.5579352888108648,0.5280353180698802,0.5916064418598981,490,837
+truth probe (cities+facts),lie vs halluc | instructed,16,prompt,0.454527442044779,0.3950604319397662,0.5206702001188825,103,490
+truth probe (cities+facts),lie (instructed) vs halluc (neutral),16,prompt,0.4119360365505427,0.3587183514182372,0.4741119360365505,103,510
+instructed-lie probe (cross-prompt),halluc vs correct | neutral,16,prompt,0.7798060075093867,0.7537156862745098,0.8045274301209846,510,940
+instructed-lie probe (cross-prompt),lie vs correct | sycophancy,16,prompt,0.5486143823603107,0.503600350789276,0.5895464795790528,325,614
+instructed-lie probe (cross-prompt),halluc vs correct | sycophancy,16,prompt,0.7353469749126202,0.7062507020105582,0.7618266479904328,493,614
+instructed-lie probe (cross-prompt),lie vs halluc | sycophancy,16,prompt,0.30973942892806994,0.2726423779060696,0.3486395693555937,325,493
+instructed-lie probe (cross-prompt),lie (sycophancy) vs halluc (neutral),16,prompt,0.992422322775264,0.9849078431372549,0.9973954751131221,325,510
+instructed-lie probe (cross-prompt),lie vs correct | incentive,16,prompt,0.4988702669149596,0.4034792054624457,0.5933277467411546,45,895
+instructed-lie probe (cross-prompt),halluc vs correct | incentive,16,prompt,0.6736727594139177,0.6487013722846102,0.6996007796299025,493,895
+instructed-lie probe (cross-prompt),lie vs halluc | incentive,16,prompt,0.33076402974983093,0.25163173315303133,0.41130493576741034,45,493
+instructed-lie probe (cross-prompt),lie (incentive) vs halluc (neutral),16,prompt,1.0,0.9999999999999999,1.0,45,510
+instructed-lie probe (cross-prompt),lie vs correct | instructed,16,prompt,0.5767361473593857,0.5257475844149818,0.6300532994629455,103,837
+instructed-lie probe (cross-prompt),halluc vs correct | instructed,16,prompt,0.5174895764757516,0.48978720161899886,0.5506044424938434,490,837
+instructed-lie probe (cross-prompt),lie vs halluc | instructed,16,prompt,0.5601545472557954,0.49813651674261933,0.6176748563503072,103,490
+instructed-lie probe (cross-prompt),lie (instructed) vs halluc (neutral),16,prompt,1.0,0.9999999999999999,1.0,103,510
+lie probe (within-prompt),halluc vs correct | neutral,16,prompt,0.6480767626199416,0.6181463287442636,0.6782112536503963,510,940
+lie probe (within-prompt),lie vs correct | sycophancy,16,prompt,0.6364219493861188,0.599320095214232,0.6749788273615636,325,614
+lie probe (within-prompt),halluc vs correct | sycophancy,16,prompt,0.6878150788564331,0.656369135321207,0.7143504172420401,493,614
+lie probe (within-prompt),lie vs halluc | sycophancy,16,prompt,0.4408612888126073,0.4034159775315962,0.48130223123732246,325,493
+lie probe (within-prompt),lie (sycophancy) vs halluc (neutral),16,prompt,0.8581960784313726,0.8322244343891403,0.8769627450980392,325,510
+lie probe (within-prompt),lie vs correct | incentive,16,prompt,0.5796399751707014,0.5094034761018001,0.6537957790192427,45,895
+lie probe (within-prompt),halluc vs correct | incentive,16,prompt,0.6070483982458327,0.5769484515054336,0.6406040998560858,493,895
+lie probe (within-prompt),lie vs halluc | incentive,16,prompt,0.46445796709488396,0.39022763128239796,0.5504000450755014,45,493
+lie probe (within-prompt),lie (incentive) vs halluc (neutral),16,prompt,0.5616993464052288,0.4866416122004357,0.6266339869281046,45,510
+lie probe (within-prompt),lie vs correct | instructed,16,prompt,0.5197132616487455,0.46419685422973866,0.5898765818747028,103,837
+lie probe (within-prompt),halluc vs correct | instructed,16,prompt,0.6002023748567528,0.5646472459951722,0.6299706800282837,490,837
+lie probe (within-prompt),lie vs halluc | instructed,16,prompt,0.41854567069546267,0.3652947295423024,0.47544283732910636,103,490
+lie probe (within-prompt),lie (instructed) vs halluc (neutral),16,prompt,0.563887302493813,0.5118337140681515,0.6199438416143155,103,510
+hallucination probe (SEP-style),halluc vs correct | neutral,16,prompt,0.883973717146433,0.8668041301627033,0.9013067375886525,510,940
+hallucination probe (SEP-style),lie vs correct | sycophancy,16,prompt,0.6006314206965673,0.5651074918566774,0.6401212728639439,325,614
+hallucination probe (SEP-style),halluc vs correct | sycophancy,16,prompt,0.799806410264881,0.7727959346155625,0.8240101651128834,493,614
+hallucination probe (SEP-style),lie vs halluc | sycophancy,16,prompt,0.27820876891870805,0.24373740053050397,0.31292167264783893,325,493
+hallucination probe (SEP-style),lie (sycophancy) vs halluc (neutral),16,prompt,0.4425399698340875,0.4071030165912519,0.48353831070889897,325,510
+hallucination probe (SEP-style),lie vs correct | incentive,16,prompt,0.5871384233395407,0.511617008069522,0.6569807572936064,45,895
+hallucination probe (SEP-style),halluc vs correct | incentive,16,prompt,0.7952904914614662,0.7694449669677156,0.8188986594445136,493,895
+hallucination probe (SEP-style),lie vs halluc | incentive,16,prompt,0.24255127338291638,0.18125309894072572,0.2981169709263015,45,493
+hallucination probe (SEP-style),lie (incentive) vs halluc (neutral),16,prompt,0.30366013071895426,0.24574727668845317,0.35909150326797384,45,510
+hallucination probe (SEP-style),lie vs correct | instructed,16,prompt,0.579636009325956,0.529527844474603,0.6416144691512683,103,837
+hallucination probe (SEP-style),halluc vs correct | instructed,16,prompt,0.8362665496306049,0.8118667861409797,0.8568172896398702,490,837
+hallucination probe (SEP-style),lie vs halluc | instructed,16,prompt,0.22623340598375274,0.1785892609470973,0.2797637210223895,103,490
+hallucination probe (SEP-style),lie (instructed) vs halluc (neutral),16,prompt,0.36843708357129257,0.303362364363221,0.4303659813439939,103,510
+lie-vs-halluc probe (supervised),halluc vs correct | neutral,16,prompt,0.14093032957864,0.12371745932415518,0.16259657905715477,510,940
+lie-vs-halluc probe (supervised),lie vs correct | sycophancy,16,prompt,0.3844850914557755,0.3483531696316713,0.41981032322726136,325,614
+lie-vs-halluc probe (supervised),halluc vs correct | sycophancy,16,prompt,0.11973161723411145,0.10081689252135764,0.13863048476719678,493,614
+lie-vs-halluc probe (supervised),lie vs halluc | sycophancy,16,prompt,0.8089062256202215,0.7806643782181307,0.8360076454985177,325,493
+lie-vs-halluc probe (supervised),lie (sycophancy) vs halluc (neutral),16,prompt,0.8576711915535444,0.8334915535444948,0.8839636500754148,325,510
+lie-vs-halluc probe (supervised),lie vs correct | incentive,16,prompt,0.3641961514587213,0.2789000620732464,0.45469770328988207,45,895
+lie-vs-halluc probe (supervised),halluc vs correct | incentive,16,prompt,0.1438598479268417,0.12280876403730438,0.16632429431028814,493,895
+lie-vs-halluc probe (supervised),lie vs halluc | incentive,16,prompt,0.7796709488393059,0.7099797160243407,0.8443103448275862,45,493
+lie-vs-halluc probe (supervised),lie (incentive) vs halluc (neutral),16,prompt,0.7048366013071896,0.6365511982570806,0.7632156862745098,45,510
+lie-vs-halluc probe (supervised),lie vs correct | instructed,16,prompt,0.41608379441138604,0.35883790931551657,0.4757786129380241,103,837
+lie-vs-halluc probe (supervised),halluc vs correct | instructed,16,prompt,0.13689561846243872,0.11717467632214176,0.15469552337063855,490,837
+lie-vs-halluc probe (supervised),lie vs halluc | instructed,16,prompt,0.7994452149791954,0.7534565088171191,0.8466440459679017,103,490
+lie-vs-halluc probe (supervised),lie (instructed) vs halluc (neutral),16,prompt,0.7596801827527128,0.7143541785646298,0.8083780696744717,103,510

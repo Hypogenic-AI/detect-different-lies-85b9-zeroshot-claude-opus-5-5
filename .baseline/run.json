@@ -7,5 +7,10 @@
   "workspace": "detect-different-lies-85b9-zeroshot-claude-opus-5-5",
   "github_url": "https://github.com/Hypogenic-AI/detect-different-lies-85b9-zeroshot-claude-opus-5-5",
   "started_at": "2026-10-03T17:45:04Z",
-  "status": "running"
+  "status": "completed",
+  "completed_at": "2026-10-03T23:47:07Z",
+  "return_code": 0,
+  "elapsed_seconds": 21722.21483206749,
+  "timed_out": false,
+  "paper_pdf": "paper_draft/main.pdf"
 }

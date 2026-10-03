@@ -1,0 +1,28 @@
+We reran the full TriviaQA pipeline on \textbf{Qwen2.5-7B-Instruct}, with the same 4{,}000 questions, prompts, judge, detectors and train/test split (layer 16 of 28). Qwen knows fewer of these questions: 1{,}931 \K{}, 1{,}023 \U{}, 563 confident misbeliefs (W) and 483 partial. Table~\ref{tab:qwen} summarises the results.
+
+\emph{Behaviour.} The implicit incentive again has no detectable effect. $P(\text{false}\mid\K)$ is 4.5\% under the incentive and 4.1\% under the placebo (McNemar $p{=}0.28$), and the lie share of false answers is 4.9\% [3.9, 6.0] vs 4.4\%. Qwen is \emph{more} sycophantic than Llama: 35.4\% of \K{} questions get a false answer, 87\% of which adopt the user's suggestion, and lies make up 26.9\% of false answers. Unlike Llama, Qwen mostly refuses the explicit instruction to lie: only 10.9\% of \K{} questions get a false answer, giving a lie share of 10.9\%. Which kind of pressure produces lies is model-specific. For Qwen, epistemic failures (\U{}, W and M) make up at least 73\% of false answers in every condition. For Llama they make up at least 56\%, with the minimum under explicit instruction.
+
+\emph{Detectors.} The detector results replicate and are, if anything, starker. For lie vs hallucination under the same prompt, the deception probe scores 0.44/0.38/0.50 (sycophancy/incentive/instructed), the truth probe 0.50/0.48/0.56, the within-prompt lie probe 0.54/0.35/0.38, and the SEP probe 0.26/0.24/0.23. All of these are near or below chance, even though the off-policy probes are perfect on their own held-out data (deception 1.00, truth 0.995). The deception probe again reads the prompt: it separates truthful answers under the lie instruction from neutral truthful answers at 0.94, and at 0.99 from the last prompt token alone. The instructed-lie probe does so at 1.00. The supervised lie-vs-hallucination probe again reduces to knowledge. It reaches 0.75--0.81 on its own task, scores lies vs correct answers at only 0.29--0.47, and gets 0.78--0.81 from prompt tokens alone. Knowledge-gated falsity (0.68/0.56/0.64) and neutral-context NLL (0.69/0.71/0.70) are the only label-free detectors clearly above chance on the informative contrast (although the CI of knowledge-gated falsity includes 0.5 for the small incentive set).
+
+\begin{table}[h]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3.5pt}
+\caption{Qwen2.5-7B-Instruct replication: AUROC [95\% CI] for lie vs hallucination under the same prompt (test questions, layer 16), with class sizes. Compare with columns 5--7 of Table~\ref{tab:auroc}.}
+\label{tab:qwen}
+\begin{tabular}{l ccc}
+\toprule
+& L vs H (sycophancy) & L vs H (incentive) & L vs H (instructed) \\
+\midrule
+Deception (RepE) & 0.44 {\tiny[0.40,0.48]} & 0.38 {\tiny[0.28,0.47]} & 0.50 {\tiny[0.43,0.57]} \\
+Truth probe & 0.50 {\tiny[0.46,0.54]} & 0.48 {\tiny[0.39,0.56]} & 0.56 {\tiny[0.49,0.63]} \\
+Lie (within-prompt) & 0.54 {\tiny[0.50,0.58]} & 0.35 {\tiny[0.28,0.43]} & 0.38 {\tiny[0.31,0.45]} \\
+Hallucination (SEP) & 0.26 {\tiny[0.22,0.30]} & 0.24 {\tiny[0.17,0.31]} & 0.23 {\tiny[0.18,0.29]} \\
+NLL (neutral ctx) & 0.69 {\tiny[0.65,0.72]} & 0.71 {\tiny[0.64,0.79]} & 0.70 {\tiny[0.64,0.76]} \\
+Knowledge-gated falsity & 0.68 {\tiny[0.64,0.72]} & 0.56 {\tiny[0.48,0.64]} & 0.64 {\tiny[0.58,0.69]} \\
+Lie-vs-halluc (sup.) & 0.80 {\tiny[0.77,0.83]} & 0.75 {\tiny[0.68,0.81]} & 0.81 {\tiny[0.76,0.86]} \\
+\midrule
+$n_+/n_-$ & 325/493 & 45/493 & 103/490 \\
+\bottomrule
+\end{tabular}
+\end{table}

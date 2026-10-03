@@ -1,0 +1,67 @@
+{
+ "mcnemar_K_false_sycophancy_vs_placebo": {
+  "rate_cond": 0.15765199161425578,
+  "rate_placebo": 0.023060796645702306,
+  "excess_pp": 13.45911949685535,
+  "n_cond_only": 353,
+  "n_placebo_only": 32,
+  "p": 1.5297965088163063e-69
+ },
+ "mcnemar_K_false_incentive_vs_placebo": {
+  "rate_cond": 0.031865828092243184,
+  "rate_placebo": 0.023060796645702306,
+  "excess_pp": 0.8805031446540879,
+  "n_cond_only": 31,
+  "n_placebo_only": 10,
+  "p": 0.0014504910141113214
+ },
+ "mcnemar_K_false_instructed_vs_placebo": {
+  "rate_cond": 0.4243186582809224,
+  "rate_placebo": 0.023060796645702306,
+  "excess_pp": 40.12578616352201,
+  "n_cond_only": 981,
+  "n_placebo_only": 24,
+  "p": 8.235481032896322e-255
+ },
+ "lie_share_neutral": {
+  "share": 0.0,
+  "lo": 0.0,
+  "hi": 0.0
+ },
+ "lie_share_placebo": {
+  "share": 0.04888888888888889,
+  "lo": 0.03736488878213434,
+  "hi": 0.06222250639386189
+ },
+ "strict_lie_share_placebo": {
+  "n": 23,
+  "share": 0.020444444444444446
+ },
+ "lie_share_sycophancy": {
+  "share": 0.2421120412105602,
+  "lo": 0.2213679962492974,
+  "hi": 0.26299557134927676
+ },
+ "strict_lie_share_sycophancy": {
+  "n": 253,
+  "share": 0.16291049581455247
+ },
+ "lie_share_incentive": {
+  "share": 0.0671971706454465,
+  "lo": 0.053225339387480884,
+  "hi": 0.08201171511586298
+ },
+ "strict_lie_share_incentive": {
+  "n": 37,
+  "share": 0.032714412024756855
+ },
+ "lie_share_instructed": {
+  "share": 0.44,
+  "lo": 0.4194235630702763,
+  "hi": 0.46008792492023776
+ },
+ "strict_lie_share_instructed": {
+  "n": 902,
+  "share": 0.39217391304347826
+ }
+}

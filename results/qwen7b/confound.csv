@@ -1,0 +1,13 @@
+detector,feat,contrast,auc,lo,hi,n_pos,n_neg
+instructed-lie probe (cross-prompt),ans,instructed-but-truthful vs neutral-truthful,0.9999656829100891,0.9999186557868781,0.9999974579933399,837,940
+instructed-lie probe (cross-prompt),ans,instructed lie vs instructed-but-truthful,0.74458015798448,0.6935904350952894,0.7954448968229112,103,837
+lie probe (within-prompt),ans,instructed-but-truthful vs neutral-truthful,0.620262335087318,0.5915730572714101,0.6456420791072472,837,940
+lie probe (within-prompt),ans,instructed lie vs instructed-but-truthful,0.8387096774193548,0.7977401375694516,0.8768625813411282,103,837
+deception probe (RepE pairs),ans,instructed-but-truthful vs neutral-truthful,0.9354037977579502,0.9239288937187016,0.9472467525864918,837,940
+deception probe (RepE pairs),ans,instructed lie vs instructed-but-truthful,0.5984155154214659,0.5364216863277308,0.6522070849427567,103,837
+instructed-lie probe (cross-prompt),prompt,instructed-but-truthful vs neutral-truthful,1.0,0.9999999999999999,1.0,837,940
+instructed-lie probe (cross-prompt),prompt,instructed lie vs instructed-but-truthful,0.5767361473593857,0.5221694447344306,0.6313843361056014,103,837
+lie probe (within-prompt),prompt,instructed-but-truthful vs neutral-truthful,0.6932547853275375,0.6687380525686977,0.7188129464399198,837,940
+lie probe (within-prompt),prompt,instructed lie vs instructed-but-truthful,0.5197132616487455,0.4686081242532855,0.5789478720812888,103,837
+deception probe (RepE pairs),prompt,instructed-but-truthful vs neutral-truthful,0.9910140064566968,0.987683628206106,0.993806273672437,837,940
+deception probe (RepE pairs),prompt,instructed lie vs instructed-but-truthful,0.52961919012655,0.46534983934764707,0.5866528053264665,103,837
